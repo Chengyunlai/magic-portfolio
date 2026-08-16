@@ -1,8 +1,12 @@
+import { baseURL, blog, person, routes } from "@/resources";
 import { getPosts } from "@/utils/utils";
-import { baseURL, blog, person } from "@/resources";
 import { NextResponse } from "next/server";
 
 export async function GET() {
+  if (!routes["/blog"]) {
+    return new Response("Not found", { status: 404 });
+  }
+
   const posts = getPosts(["src", "app", "blog", "posts"]);
 
   // Sort posts by date (newest first)

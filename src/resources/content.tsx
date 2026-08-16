@@ -1,4 +1,4 @@
-import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
+import type { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/types";
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
@@ -6,7 +6,7 @@ const person: Person = {
   lastName: "程",
   name: "程云来",
   role: "独立开发者 / 开源实践者",
-  avatar: "/images/avatar.jpg",
+  avatar: "/images/avatar.svg",
   email: "",
   location: "Asia/Shanghai",
   locationLabel: "中国 / 上海",
@@ -31,7 +31,7 @@ const social: Social = [
 
 const home: Home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/home.svg",
   label: "首页",
   title: "程云来的个人站",
   description: "程云来的个人站，记录开源项目、工程实践与持续构建的东西。",
@@ -51,7 +51,8 @@ const home: Home = {
   },
   subline: (
     <>
-      我是程云来，一名独立开发者和开源实践者。<br />
+      我是程云来，一名独立开发者和开源实践者。
+      <br />
       关注 AI Agent、开发者工具与有趣的桌面体验。
     </>
   ),
@@ -78,8 +79,8 @@ const about: About = {
     title: "自我介绍",
     description: (
       <>
-        我喜欢把复杂的问题拆开，做成清晰、可靠、可持续演进的工具。
-        目前主要探索 AI Agent、Kubernetes 运维体验、开发者工作流，以及 macOS 上的小而美的应用。
+        我喜欢把复杂的问题拆开，做成清晰、可靠、可持续演进的工具。 目前主要探索 AI Agent、Kubernetes
+        运维体验、开发者工作流，以及 macOS 上的小而美的应用。
       </>
     ),
   },

@@ -1,5 +1,5 @@
-import { Row, IconButton, SmartLink, Text } from "@once-ui-system/core";
 import { person, social } from "@/resources";
+import { IconButton, Row, SmartLink, Text } from "@once-ui-system/core";
 import styles from "./Footer.module.scss";
 
 export const Footer = () => {
@@ -25,10 +25,13 @@ export const Footer = () => {
           <Text onBackground="neutral-weak">© {currentYear} /</Text>
           <Text paddingX="4">{person.name}</Text>
           <Text onBackground="neutral-weak">
-            {/* Magic Portfolio is used under CC BY-NC 4.0; keep this attribution visible. */}
-            / 基于{" "}
-            <SmartLink href="https://once-ui.com/products/magic-portfolio">Once UI</SmartLink>
-            {" "}构建
+            {/* Magic Portfolio is used under CC BY-NC 4.0; keep this attribution visible. */}/
+            本页面基于{" "}
+            <SmartLink href="https://once-ui.com/products/magic-portfolio">Once UI</SmartLink>{" "}
+            构建，遵循{" "}
+            <SmartLink href="https://creativecommons.org/licenses/by-nc/4.0/">
+              CC BY-NC 4.0
+            </SmartLink>
           </Text>
         </Text>
         <Row gap="16">

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">程云来的个人站</title>
+  <desc id="desc">个人介绍与开源项目</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#123d4c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="80%" cy="20%" r="80%">
+      <stop offset="0" stop-color="#8ae6d4" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#8ae6d4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <circle cx="1040" cy="120" r="86" fill="#8ae6d4" opacity=".18"/>
+  <text x="90" y="245" fill="#f5fbff" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="74" font-weight="700">程云来的个人站</text>
+  <text x="96" y="330" fill="#b8d7df" font-family="PingFang SC, Microsoft YaHei, sans-serif" font-size="32">个人介绍 · 开源项目 · 持续构建</text>
+  <text x="96" y="526" fill="#8ae6d4" font-family="SFMono-Regular, Consolas, monospace" font-size="24">chengyunlai.top</text>
+</svg>
